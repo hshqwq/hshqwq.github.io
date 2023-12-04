@@ -24,8 +24,8 @@ dependencies:
     specifier: ^2.0.0
     version: 2.0.0
   hexo-renderer-marked:
-    specifier: ^6.0.0
-    version: 6.1.1
+    specifier: ^6.2.0
+    version: 6.2.0
   hexo-renderer-stylus:
     specifier: ^2.1.0
     version: 2.1.0
@@ -49,6 +49,7 @@ packages:
 
   /abab@2.0.6:
     resolution: {integrity: sha512-j2afSsaIENvHZN2B8GOpF566vZ5WVk5opAiMTvWgaQT8DkbOqsTfvNAvHoRGU2zzP8cPoqys+xHTRDWW8L+/BA==}
+    deprecated: Use your platform's native atob() and btoa() methods instead
     dev: false
 
   /abbrev@1.1.1:
@@ -132,7 +133,7 @@ packages:
     dev: false
 
   /asynckit@0.4.0:
-    resolution: {integrity: sha1-x57Zf380y48robyXkLzDZkdLS3k=}
+    resolution: {integrity: sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==}
     dev: false
 
   /atob@2.1.2:
@@ -369,7 +370,7 @@ packages:
     dev: false
 
   /delayed-stream@1.0.0:
-    resolution: {integrity: sha1-3zrhmayt+31ECqrgsp4icrJOxhk=}
+    resolution: {integrity: sha512-ZySD7Nf91aLB0RxL4KGrKHBXl7Eds1DAmEdcoVawXnLD7SDhpNgtuII2aAkg7a7QS41jxPSZ17p4VdGnMHk3MQ==}
     engines: {node: '>=0.4.0'}
     dev: false
 
@@ -406,6 +407,7 @@ packages:
   /domexception@4.0.0:
     resolution: {integrity: sha512-A2is4PLG+eeSfoTMA95/s4pvAoSo2mKtiM5jlHkAVewmiO8ISFTFKZjH7UAM1Atli/OT/7JHOrJRJiMKUZKYBw==}
     engines: {node: '>=12'}
+    deprecated: Use your platform's native DOMException instead
     dependencies:
       webidl-conversions: 7.0.0
     dev: false
@@ -713,8 +715,8 @@ packages:
       ejs: 3.1.9
     dev: false
 
-  /hexo-renderer-marked@6.1.1:
-    resolution: {integrity: sha512-vllmRFwl9A1NP/llQW2TbDnyvqaQKgktxXw7c+tK7XVQJmfIUnl32dr8M4jRYqYe5m9972eYm09kBXV8rBtA/A==}
+  /hexo-renderer-marked@6.2.0:
+    resolution: {integrity: sha512-/TwgQCAmqYIyxONzrgqokw0n8rU6W/lCtgbjhWcMoZxhwTaQCYpzaO0+sdu+PKXf9BL4910pg+xAbeFaqqIIrA==}
     engines: {node: '>=14'}
     dependencies:
       dompurify: 3.0.6
@@ -957,7 +959,7 @@ packages:
     dev: false
 
   /isexe@2.0.0:
-    resolution: {integrity: sha1-6PvzdNxVb/iUehDcsFctYz8s+hA=}
+    resolution: {integrity: sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==}
     dev: false
 
   /jake@10.8.7:
@@ -1309,7 +1311,7 @@ packages:
     dev: false
 
   /requires-port@1.0.0:
-    resolution: {integrity: sha1-kl0mAdOaxIXgkc8NpcbmlNw9yv8=}
+    resolution: {integrity: sha512-KigOCHcocU3XODJxsu8i/j8T9tzT4adHiecwORRQ0ZZFcp7ahwXuRU1m+yuO90C5ZUyGeGfocHDI14M3L3yDAQ==}
     dev: false
 
   /resolve@1.22.8:
