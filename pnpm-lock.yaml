@@ -33,8 +33,8 @@ dependencies:
     specifier: ^3.0.0
     version: 3.0.0
   hexo-theme-fluid:
-    specifier: 1.9.5-a
-    version: 1.9.5-a(nunjucks@3.2.4)
+    specifier: 1.9.6
+    version: 1.9.6(nunjucks@3.2.4)
 
 packages:
 
@@ -754,8 +754,8 @@ packages:
       - supports-color
     dev: false
 
-  /hexo-theme-fluid@1.9.5-a(nunjucks@3.2.4):
-    resolution: {integrity: sha512-lmpLUtYfEDTFoOAuhZ8wNPzfS8DU9Kbck/JGvpPBWkss2xSNddgRGxpJEpAAdD2ikUf3KI5sehOPMBfk9yVDfQ==}
+  /hexo-theme-fluid@1.9.6(nunjucks@3.2.4):
+    resolution: {integrity: sha512-l/OmaqG7HYEVBwHhc+lNkH/sYqJ14qoEu+LUkcKTwn1EARnquPmvXZEFVkn4LZZ7RO3wbcDvig5ERsfh3v/6vw==}
     engines: {node: '>=8.10.0'}
     peerDependencies:
       nunjucks: ^3.0.0
